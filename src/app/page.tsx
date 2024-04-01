@@ -12,24 +12,12 @@ import { fetchUser } from './services/twitter';
 
 const FeedsSection = dynamic(() => import('./components/FeedsSection'));
 
-interface TwitterProps {
-  twitterInfo: TwitterInfo | null;
-}
-
-interface TwitterInfo {
-  screenName: string;
-  name: string;
-  profileImageURL: string;
-  profileBannerURL: string;
-  description: string;
-}
-
-function Home({ twitterInfo }: TwitterProps) {
+function Home() {
   return (
     <div>
       <BackgroundVideoSection />
       <AboutSection />
-      <FeedsSection twitterInfo={twitterInfo}/>
+      <FeedsSection twitterInfo={null}/>
       <CarouselSection />
       <OwnerJournalistSection />
       <SocialHandlesSection />
@@ -40,7 +28,6 @@ function Home({ twitterInfo }: TwitterProps) {
 }
 
 Home.getInitialProps = async (context: NextPageContext) => {
-  console.log('get init called!!');
   let twitterHandle = process.env.NEXT_PUBLIC_TEST_TWITTER_HANDLE;
   let twitterInfo = null;
 

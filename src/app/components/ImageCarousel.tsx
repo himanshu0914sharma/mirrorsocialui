@@ -20,7 +20,7 @@ const ImageCarousel: React.FC<{ images: string[] }> = ({ images }) => {
   };
 
   return (
-    <div className="w-full">
+    <div style={{maxWidth: '90vw'}}>
       <Slider {...settings}>
         {images.map((image, index) => (
           <div key={index}>

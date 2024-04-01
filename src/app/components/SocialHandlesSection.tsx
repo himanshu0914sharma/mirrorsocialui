@@ -6,7 +6,7 @@ const SocialHandlesSection: React.FC = () => {
     <section className="py-16 bg-green-300">
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold text-center mb-8 text-black">Connect Online</h2>
-        <div className="flex justify-around items-center space-x-6">
+        <div className="flex justify-around items-center space-x-6 flex-wrap">
           {/* Facebook */}
           <a href="#" className="text-gray-700 hover:text-blue-500" target="_blank" rel="noopener noreferrer">
             <FaFacebook size={32} />

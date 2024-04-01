@@ -10,7 +10,7 @@ const BackgroundVideoSection: React.FC = () => {
       </video>
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center">
-        <h1 className="text-9xl font-bold">Mirror Social</h1>
+        <h1 className="text-8xl font-bold">Mirror Social</h1>
         {/* Add other content as needed */}
       </div>
     </section>

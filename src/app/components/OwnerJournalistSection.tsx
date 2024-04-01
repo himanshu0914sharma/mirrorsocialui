@@ -13,20 +13,20 @@ const OwnerJournalistSection: React.FC = () => {
         <div className="w-full md:w-1/2 md:pl-8">
           <h2 className="text-4xl font-bold mb-4 text-black">The Author</h2>
           <p className="text-lg text-gray-800 mb-4">
-            Anjali, a skilled journalist by profession, brings a wealth of experience and expertise
+            {`Anjali, a skilled journalist by profession, brings a wealth of experience and expertise
             to the journalism industry. She embarked on her academic journey at Kendriya Vidyalaya,
-            where she developed a strong foundation for her future endeavors.
+            where she developed a strong foundation for her future endeavors.`}
           </p>
           <p className="text-lg text-gray-800 mb-4">
-            She pursued her Bachelor's in Journalism and Mass Communication (BJMC) from Jhansi
+            {`She pursued her Bachelor's in Journalism and Mass Communication (BJMC) from Jhansi
             University, where she honed her skills and knowledge in the field of journalism. Her
             passion for journalism led her to further her education with a Master's in Journalism
-            and Mass Communication (MJMC) from Makhanlal Chaturvedi University in Bhopal where she received Medal of excellence from the Vice President of India.
+            and Mass Communication (MJMC) from Makhanlal Chaturvedi University in Bhopal where she received Medal of excellence from the Vice President of India.`}
           </p>
           <p className="text-lg text-gray-800 mb-4">
-            Anjali's professional journey began at ABP News, where she gained valuable experience
+            {`Anjali's professional journey began at ABP News, where she gained valuable experience
             and insights into the industry. Currently, she serves as an anchor at Vistaar News,
-            where she continues to make significant contributions to the field of journalism.
+            where she continues to make significant contributions to the field of journalism.`}
           </p>
         </div>
       </div>

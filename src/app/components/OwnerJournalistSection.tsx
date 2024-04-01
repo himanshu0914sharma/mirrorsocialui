@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const OwnerJournalistSection: React.FC = () => {
   return (
-    <section className="py-16 bg-lime-100">
+    <section className="py-16 bg-lime-100 p-2">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         {/* Image */}
         <div className="w-full md:w-1/2 mb-8 md:mb-0">

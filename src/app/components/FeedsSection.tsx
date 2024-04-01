@@ -37,7 +37,7 @@ const FeedsSection: React.FC<TwitterProps> = ({twitterInfo}: TwitterProps) => {
 //   }, []);
 
   return (
-    <section className="py-16 bg-black">
+    <section className="py-16 bg-black text-white">
       {/* <div className="container mx-auto">
         <h2 className="text-4xl font-bold mb-8">Feeds from Vistaar News</h2>
         <div className="flex overflow-x-auto space-x-4">

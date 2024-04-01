@@ -2,7 +2,7 @@ import React from 'react';
 
 const ConnectSection: React.FC = () => {
   return (
-    <section className="py-16 bg-black">
+    <section className="py-16 bg-black p-4 text-white">
       <div className="container mx-auto">
         <h2 className="text-2xl font-bold mb-8">Connecting</h2>
         <form>

@@ -1,0 +1,15 @@
+.menu {
+    display: none;
+    background-color: black;
+    color: white;
+  }
+  
+  .menu.open {
+    display: block;
+  }
+  
+  @media (max-width: 600px) {
+    .menu {
+      display: block;
+    }
+  }

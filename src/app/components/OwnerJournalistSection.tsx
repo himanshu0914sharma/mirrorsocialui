@@ -7,7 +7,7 @@ const OwnerJournalistSection: React.FC = () => {
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         {/* Image */}
         <div className="w-full md:w-1/2 mb-8 md:mb-0">
-            <Image src="https://pbs.twimg.com/profile_images/1774094082933231616/DfEtrheI_400x400.jpg" alt="Journalist"  width={400} height={300}/>
+            <Image src="/avatars/AnjaliMirrorSocialProfile.jpg" alt="Journalist"  width={400} height={300}/>
         </div>
         {/* Text */}
         <div className="w-full md:w-1/2 md:pl-8">

@@ -8,7 +8,7 @@ const SocialHandlesSection: React.FC = () => {
         <h2 className="text-4xl font-bold text-center mb-8 text-black">Connect Online</h2>
         <div className="flex justify-around items-center space-x-6 space-y-6 flex-wrap p-2">
           {/* Facebook */}
-          <a href="#" className="text-gray-700 hover:text-blue-500" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/profile.php?id=100073450629315&mibextid=ZbWKwL" className="text-gray-700 hover:text-blue-500" target="_blank" rel="noopener noreferrer">
             <FaFacebook size={32} />
             <span className="ml-2">Facebook</span>
           </a>
@@ -23,12 +23,12 @@ const SocialHandlesSection: React.FC = () => {
             <span className="ml-2">YouTube</span>
           </a>
           {/* Instagram */}
-          <a href="#" className="text-gray-700 hover:text-pink-500" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/sharmaanjaliocta" className="text-gray-700 hover:text-pink-500" target="_blank" rel="noopener noreferrer">
             <FaInstagram size={32} />
             <span className="ml-2">Instagram</span>
           </a>
           {/* LinkedIn */}
-          <a href="#" className="text-gray-700 hover:text-blue-600" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/anjali-sharma-1206b2213" className="text-gray-700 hover:text-blue-600" target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={32} />
             <span className="ml-2">LinkedIn</span>
           </a>

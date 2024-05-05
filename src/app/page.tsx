@@ -9,6 +9,7 @@ import ConnectSection from './components/ConnectSection';
 import Footer from './components/Footer';
 import { NextPageContext } from 'next';
 import { fetchUser } from './services/twitter';
+import NewsComponent from './components/NewsComponent';
 
 const FeedsSection = dynamic(() => import('./components/FeedsSection'));
 
@@ -17,6 +18,7 @@ function Home() {
     <div>
       <BackgroundVideoSection />
       <AboutSection />
+      <NewsComponent />
       <FeedsSection twitterInfo={null}/>
       <CarouselSection />
       <OwnerJournalistSection />
